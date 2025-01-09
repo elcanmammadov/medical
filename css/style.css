@@ -1,0 +1,60 @@
+:root { 
+    --mavi: #6bc2f1;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    background: url(../img/headerbg.jpg)60% 50%/cover;
+}
+
+.text-mavi{ 
+    color: var(--mavi);
+}
+.bg-mavi {
+     background-color: var(--mavi);
+}
+
+.bg-boz { 
+    background-color: #f1f1f1;
+}
+
+.bg-ag{
+    background-color: #fff;
+}
+
+.bg-tmavi{
+   background-color: #072035;
+}
+
+#f1{ 
+    background: url('../img/f1.jpg') center/cover;
+}
+
+#f2{ 
+    background: url('../img/f2.jpg') center/cover;
+}
+
+.min-vh-50{
+     min-height: 50vh;
+}
+
+#f1:hover, #f2:hover { opacity: .5 }
+#f1:hover a, #f2:hover a { display: initial!important }
+
+
+
+.bx-sizing {
+    box-sizing: border-box!important;
+}
+
+.carousel-indicators img {
+    width: 45px!important;
+    height: 45px!important;
+    margin: 0 5px!important;
+}
+.carousel-indicators img.active {
+    transform:scale(1.5);
+}
